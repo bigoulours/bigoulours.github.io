@@ -358,6 +358,7 @@ ul.two-column li {
 /* Components */
 .info-tag-container {
   margin-bottom: 5px;
+  overflow: hidden;
 }
 
 .info-tag-container .fa {
@@ -428,6 +429,12 @@ ul.two-column li {
   background: ghostwhite;
   border-radius: 5px;
 }
+
+.certif-details {
+  margin: .15em;
+  padding: .15em;
+  padding-bottom: 6px;
+}
 </style>
 </head>
 
@@ -436,10 +443,12 @@ ul.two-column li {
     <header class="resume-header clearfix">
         <div class="profile-header pull-left">
             <h1>Bertrand Bourguignon</h1>
-            <h2>Dual-Degree (Master) in Robotic Control – 10 years’ work experience</h2>
         </div>
         <div class="profile-pic pull-right">
             <img src="images/photo.png" alt="profile-pic">
+        </div>
+    	<div class="profile-header pull-left">
+            <h2>Dual-Degree (Master) in Robotic Control – 10 years’ work experience</h2>
         </div>
     </header>
     <div class="resume-content">
@@ -539,15 +548,6 @@ ul.two-column li {
                                     <h6 class="main-skill skill">Continuous Integration</h6>
                             </div>
                     </section>
-                    <section class="container">
-                            <div class="title">
-                                <h3>Certifications</h3>
-                                <div class="keyline"></div>
-                            </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">Test Driving BMW B2, E1</h6>
-                                    <h6 class="main-skill skill">Hybrid vehicles BMW 35007 (“Blitz 3“)</h6>
-                            </div>
-                    </section>
             </div>
             <div class="container languages-container">
                 <div class="title">
@@ -566,6 +566,19 @@ ul.two-column li {
                         </li>
                 </ul>
             </div>
+		    <div class="certificates-container">
+				<section class="container">
+					<div class="title">
+					    <h3>Certificates</h3>
+					    <div class="keyline"></div>
+					</div>					<h6 class="main-skill skill">Test Driving BMW E1</h6>
+								<h5 class="certif-details"><b>BMW</b> - 05/2013</h5>
+							<h6 class="main-skill skill">Test Driving BMW B2</h6>
+								<h5 class="certif-details"><b>BMW</b> - 07/2011</h5>
+							<h6 class="main-skill skill">Hybrid vehicles BMW 35007 (“Blitz 3“)</h6>
+								<h5 class="certif-details"><b>BMW</b> - 04/2011</h5>
+				</section>
+		    </div>
             <div class="container interests-container">
                 <div class="title">
                     <h3>Interests</h3>
@@ -577,6 +590,7 @@ ul.two-column li {
                                     <li>HW/SW</li>
                                     <li>Reading (nonfiction)</li>
                                     <li>Sport</li>
+                                    <li>TV Shows (SciFi)</li>
                                     <li>Craft Beer</li>
                             </ul>
                     </section>
@@ -617,7 +631,7 @@ ul.two-column li {
                     <ul>
                         <li>Technical responsibility for Customer Needs Assessment, response to tender and experience capitalization</li>
                         <li>Creation and arrangement of SW Requirements and detailed description of corresponding Test Cases</li>
-                        <li>Implementation and enhancements (HW/SW) of HiL test bench including Test automation</li>
+                        <li>Implementation and enhancements (HW/SW) of HiL test bench including Test Automation</li>
                         <li>SW validation for control units and subsystems</li>
                         <li>Migration of CAN descriptions (PDOs, SDOs) to machine-readable formats</li>
                         <li>Development of own Tools/Scripts and improvement of diverse open-source SW (C, C++, Python, C#, XSLT) to improve productivity: file conversion, CAN traffic recording and analysis, test environment configuration</li>
@@ -646,8 +660,8 @@ ul.two-column li {
                     <ul>
                         <li>Responsible for specifications, validation, ticket and error analysis, improvements and approval of PDC function (Parking Distance Control)</li>
                         <li>Additions and correction to specifications and CAN catalogs</li>
-                        <li>Design of a degradation concept and definition of the required diagnoses</li>
-                        <li>Test (test bench and vehicle) and application planning</li>
+                        <li>Design of a degradation concept and definition of the required diagnostics</li>
+                        <li>Testing (on test bench and vehicle) and application planning</li>
                         <li>Tight cooperation with other components for problem solving</li>
                         <li>Dead line compliance for each milestone (“I-Stufen”)</li>
                         <li>Supplier relationship: technical feedbacks regarding implementation</li>
